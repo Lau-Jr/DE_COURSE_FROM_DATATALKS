@@ -1,0 +1,2 @@
+pyarrow is required for read parquet data or fastparquet for fastparquest engine option
+for some reason roor user specified in postgresql docker doesn't work
