@@ -1,2 +1,12 @@
+---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------
 pyarrow is required for read parquet data or fastparquet for fastparquest engine option
 for some reason roor user specified in postgresql docker doesn't work
+and for postgres we need pyscopg2 or psycopg2-binary
+
+
+-----another day------
+how do I actually put data to db from df???
+I will use to_sql method in pandas 
+this method takes 
+table name,con and if_exists parameters
+
