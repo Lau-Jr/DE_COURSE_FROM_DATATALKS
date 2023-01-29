@@ -10,3 +10,19 @@ I will use to_sql method in pandas
 this method takes 
 table name,con and if_exists parameters
 
+
+--------end of week1 summary----
+so inorder to connect pgadmin container with postgresql db container they have to be on the same networks.
+that is pg-network
+which can be created by command 
+
+docker network create pg-network
+docker network ls ---to list of networks.
+
+then they can be run seperately or using docker-compose.yaml file
+
+but you must also assign --network=your_network in the docker cmd
+
+like docker run -it \
+	--network=your_network
+
