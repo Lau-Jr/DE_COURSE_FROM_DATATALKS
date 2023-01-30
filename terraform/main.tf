@@ -1,3 +1,5 @@
+# I failed to get free 300 usd so I used AWS instead
+
 terraform {
   required_providers {
     aws = {
