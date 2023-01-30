@@ -26,3 +26,18 @@ but you must also assign --network=your_network in the docker cmd
 like docker run -it \
 	--network=your_network
 
+
+=======today its about terraform on aws==========
+what i needed 
+----terraform binary
+----aws cli
+----init, apply destroy-------
+main.tf
+
+
+-----codes----
+export AWS_ACCESS_KEY_ID=AKIAVOLO5AVX22
+export AWS_SECRET_ACCESS_KEY=oMtmii5etiiiix6zOmk5kU6GsFC
+cd learn-terraform-aws-instance
+touch main.tf
+
